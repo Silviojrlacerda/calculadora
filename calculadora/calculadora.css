@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    font-size: 100%;
+    background: #A6D0DD;
+}
+
+.header_calc{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+
+.section-calc{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+
+}
+.div-calc{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+    background-color: #2E3840;
+    border-radius: 15px;
+    box-shadow: 15px 25px 15px rgba(0, 0, 0, 0.7);
+}
+.title-calc{
+    font-family: helvetica;
+    color: white;
+}
+button{
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    border: none;
+    background-color: aliceblue;
+
+}
+button:hover{
+    background-color: wheat;
+
+}
+#equal-btn{
+    background-color: coral;
+    width: 100%;
+}
+#equal-btn:hover{
+    background-color: darkorange;
+}
+#operation{
+    text-align: right;
+    background-color: white;
+    width: 98%;
+    
+}
+#previous_peration{
+    padding: 0.2em;
+    color: grey;
+    min-height: 1.6em;
+    overflow-wrap: break-word;
+}
+#current_operation{
+    min-height: 1.6em;
+    font-size: 2em;
+    font-weight: 700;
+    padding: 0.2em;
+    overflow-wrap: break-word;
+}
+
+.authenticated{
+    padding-top: 10px;
+    text-align: center;
+    font-size: 15px;
+    color: black;
+    font-weight: 300;
+    font-size: 15px;
+}
+@media screen and (max-width: 780px){
+    
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        text-decoration: none;
+    }
+    
+    body{
+        height: auto;
+    }
+    .header_calc{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        padding: 24px;
+    }
+    
+    
+    .authenticated{
+    padding-top: 10px;
+    text-align: center;
+    font-size: 15px;
+    color: black;
+    font-weight: 300;
+    font-size: 15px;
+    }
+
+}
